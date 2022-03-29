@@ -1,0 +1,7 @@
+tellraw @s "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+tellraw @s [{"text":"\n[ 설치 ]","color":"white","hoverEvent":{"action":"show_text","contents":[{"text":"설치","color":"white"}]},"clickEvent":{"action":"run_command","value":"/tag @s add item.place"}}]
+tellraw @s [{"text":"\n[ 반복 재생 속도 늘리기 ]","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"text":"반복 재생 속도 늘리기","color":"yellow"}]},"clickEvent":{"action":"run_command","value":"/tag @s add item.inc_speed"}}]
+tellraw @s [{"text":"\n[ 반복 재생 속도 줄이기 ]","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"반복 재생 속도 줄이기","color":"gold"}]},"clickEvent":{"action":"run_command","value":"/tag @s add item.dec_speed"}}]
+tellraw @s [{"text":"\n[ 작동 순서 늘리기 ]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"작동 순서 늘리기","color":"green"}]},"clickEvent":{"action":"run_command","value":"/tag @s add item.inc_sequence"}}]
+tellraw @s [{"text":"\n[ 작동 순서 줄이기 ]","color":"blue","hoverEvent":{"action":"show_text","contents":[{"text":"작동 순서 줄이기","color":"blue"}]},"clickEvent":{"action":"run_command","value":"/tag @s add item.dec_sequence"}}]
+tellraw @s [{"text":"\n[ 제거 ]","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"제거","color":"red"}]},"clickEvent":{"action":"run_command","value":"/tag @s add item.remove"}}]
